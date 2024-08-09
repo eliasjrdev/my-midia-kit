@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +22,22 @@ function App() {
   );
 }
 
+export default App;*/
+
+// src/App.js
+
+import React from 'react';
+import HomePage from './pages/homePage';
+import MyImage from './assets/fotoPerfil.jpeg';
+import Header from './components/header';
+function App() {
+  return (
+    <div className="App">
+      <img src={MyImage} alt="Photo profile" />
+      <HomePage />
+    </div>
+  );
+}
+
 export default App;
+
